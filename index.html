@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Hangman</title>
+    <link rel="shortcut icon" type="image/gif" href="assets/images/hangman.gif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.0.0/css/foundation.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Libre+Baskerville" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- Header of the Hangman Game-->
+
+    <!-- container of the actual game itself -->
+    <div class="container">
+        <div class="header">
+            <h1>Hangman</h1>
+        </div>
+        <div class="leftSection">
+            <img src="assets/images/hangman.jpg" class="pic" />
+        </div>
+        <div class="rightSection">
+            <h4>Player 1</h4>
+            <h4 id="enterName"></h4>
+            <br>
+            <div id="winCounter"></div>
+            <p id="info"></p>
+            <h2>Current word</h2>
+            <h3 id="hiddenWord"></h3>
+            <div id="livesLeft"></div>
+            <br>
+            <h4>Letters Used</h4>
+            <div id="listing"></div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

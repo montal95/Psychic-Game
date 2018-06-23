@@ -1,0 +1,57 @@
+.header {
+    max-width: 980px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Kumar One Outline', cursive;
+    margin-top: 60px;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+    display: block;
+}
+
+.leftSection {
+    width: 490px;
+    display: block;
+    float: left;
+    height: auto;
+}
+
+.rightSection {
+    width: 490px;
+    float: right;
+    display: block;
+    text-align: left;
+    height: auto;
+}
+
+.pic {
+    width: 450px;
+}
+
+#hiddenWord::first-letter {
+    text-transform: uppercase;
+}
+
+#hiddenWord {
+    font-family: 'Libre Baskerville', serif;
+}
